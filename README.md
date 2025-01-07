@@ -3,7 +3,7 @@
 The data preparation process ensures raw data clean, organized, and ready for analysis. In this project, it involves three main steps:
 
 1. [Data Exploration](#1--data-exploration)
-2. [Data Cleaning](#2.-data-cleaning)
+2. [Data Cleaning](#2--data-cleaning)
 3. [Data Modelling](#3.-data-modelling)
 
 
