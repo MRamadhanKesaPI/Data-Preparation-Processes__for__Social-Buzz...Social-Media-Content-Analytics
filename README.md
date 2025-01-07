@@ -1,6 +1,6 @@
 # Data Preparation Process for Social Buzz: Social Media Content Analytics
 
-The data preparation process ensures raw data clean, organized, and ready for analysis. In this project, it involves three main steps:
+In this project, I used Microsoft Excel to ensure the raw data was clean, organized, and ready for analysis. My data preparation process involved three main steps:
 
 1. [Data Exploration](#data-exploration)
 2. [Data Cleaning](#data-cleaning)
