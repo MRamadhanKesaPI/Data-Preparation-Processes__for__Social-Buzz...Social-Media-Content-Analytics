@@ -1,4 +1,4 @@
-# Data Preparation Process
+# Data Preparation Process for Social Buzz: Social Media Content Analytics
 
 The data preparation process ensures raw data clean, organized, and ready for analysis. In this project, it involves three main steps:
 
