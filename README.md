@@ -3,8 +3,8 @@
 The data preparation process ensures raw data clean, organized, and ready for analysis. In this project, it involves three main steps:
 
 1. [Data Exploration](#1.-data-exploration)
-2. [Data Cleaning](#data-cleaning)
-3. [Data Modelling](#data-modelling)
+2. [Data Cleaning](#2.-data-cleaning)
+3. [Data Modelling](#3.-data-modelling)
 
 
 ### 1. Data Exploration
@@ -31,7 +31,7 @@ For this project, I received 7 datasets from Social Buzz, including User, **Prof
 - Score: This is a number calculated by Social Buzz that quantifies how “popular” each reaction is. 
 
 
-### Data Cleaning:
+### 2. Data Cleaning:
 
 In this phase, i clean the data to make sure it's accurate, consistent, and reliable. The process includes:
 
@@ -50,7 +50,7 @@ In this phase, i clean the data to make sure it's accurate, consistent, and reli
 7. **Text Formatting:** After merging the tables in the Data Modelling process, apply the formula ```=PROPER(text)``` to standardize text formatting for consistency and readability.
 
 
-### Data Modelling
+### 3. Data Modelling
 
 In this phase, I prepare the data for analysis by structuring and merging the relevant datasets to ensure they are properly aligned and ready for insightful reporting. The process includes:
 
