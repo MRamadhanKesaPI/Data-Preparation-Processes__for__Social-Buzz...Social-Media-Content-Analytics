@@ -43,7 +43,7 @@ In this phase, i clean the data to make sure it's accurate, consistent, and reli
    
 4. **Delete Blank Rows:** Remove rows with blanks in the Reactions dataset (980 rows identified and deleted). No blank cells were found in the other datasets
    
-5. **Remove Unnecessary Columns:** Delete columns including UserID from the **Reactions** and **Content** datasets and URL from the **Content** dataset. No columns were deleted from the **Reaction Types** dataset.
+5. **Remove Unnecessary Columns:** Delete columns including UserID from the **Reaction** and **Content** datasets and URL from the **Content** dataset. No columns were deleted from the **Reaction Types** dataset.
     
 6. **Data Type Changes:** Adjust columns to appropriate data types.
     
@@ -56,10 +56,11 @@ In this phase, I prepare the data for analysis by structuring and merging the re
 
 #### 1. Merging Datasets:
 
-- I Utilized Power Query to merge the three datasets: **Content**, **Reactions**, and **Reaction Types**.
+- I Utilized Power Query to merge the three datasets: **Content**, **Reaction**, and **Reaction Types**.
 
 #### 2. Key Relationships:
 
-- The **Content** table is linked to the **Reactions** table through the Content ID field.
+- The **Content** table is linked to the **Reaction** table through the Content ID field.
 - The **Reaction Types** table is linked to the **Reaction** table through the Reaction Type field.
-This results in the **Reaction table** (main table) acting as the central point, with **Content** and **Reaction Types** connected via their respective fields (Content ID and Reaction Type).
+
+This results in the **Reaction** table (main table) acting as the central point, with **Content** and **Reaction Types** connected via their respective fields (Content ID and Reaction Type).
