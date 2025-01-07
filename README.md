@@ -2,12 +2,12 @@
 
 The data preparation process ensures raw data clean, organized, and ready for analysis. In this project, it involves three main steps:
 
-1. [Data Exploration](#data-exploration)
+1. [Data Exploration](#1.-data-exploration)
 2. [Data Cleaning](#data-cleaning)
 3. [Data Modelling](#data-modelling)
 
 
-### Data Exploration
+### 1. Data Exploration
 
 For this project, I received 7 datasets from Social Buzz, including User, **Profile**, **Location**, **Session**, **Content**, **Reaction**, **Reaction Types**. However, only 3 datasets were used as they were relevant to the business questions: **Reaction**, **Content**, and **Reaction Types**.
 
