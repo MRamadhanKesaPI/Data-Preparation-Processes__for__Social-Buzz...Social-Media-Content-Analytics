@@ -1,66 +1,66 @@
 # Data Preparation Process for Social Buzz: Social Media Content Analytics
 
-In this project, I used Microsoft Excel to ensure the raw data was clean, organized, and ready for analysis. My data preparation process involved three main steps:
+To ensure the raw data was clean, organized, and ready for analysis, I used Microsoft Excel and followed a systematic data preparation process with three main steps:
 
 1. [Data Exploration](#data-exploration)
 2. [Data Cleaning](#data-cleaning)
 3. [Data Modelling](#data-modelling)
 
 
-### Data Exploration
+## Data Exploration
 
-For this project, I received 7 datasets from Social Buzz, including User, **Profile**, **Location**, **Session**, **Content**, **Reaction**, **Reaction Types**. However, only 3 datasets were used as they were relevant to the business questions: **Reaction**, **Content**, and **Reaction Types**.
+For this project, I received 7 datasets from Social Buzz: User, Profile, Location, Session, Content, Reaction, and Reaction Types. However, only 3 datasets were relevant to the business questions and were used for analysis: *Reaction*, *Content*, and *Reaction Types*.
 
-#### Data Detail:
+### Dataset Details:
 #### 1. Content:
-- Content ID: Unique ID of the content that was uploaded. 
-- User ID: Unique ID of a user that exists in the User table. 
-- Content Type: A string detailing the type of content that was uploaded. 
-- Category: A string detailing the category that this content is relevant to.
-- URL: Link to the location where this content is stored. 
+- Content ID: Unique identifier for uploaded content.
+- User ID: Unique identifier for users (exists in the User table).
+- Content Type: Type of uploaded content. 
+- Category: Category associated with the content.
+- URL: Link to the content's storage location.
 
 #### 2. Reaction: 
-- Content ID: Unique ID of the content that was uploaded. 
-- User ID: Unique ID of a user that exists in the User table.
-- Reaction Type: A string detailing the type of reaction this user gave.
-- Datetime: The date and time of this reaction. 
+- Content ID: Unique identifier for uploaded content.
+- User ID: Unique identifier for users (exists in the User table).
+- Reaction Type: Type of user reaction.
+- Datetime: Date and time of the reaction.
 
 #### 3. Reaction Types: 
-- Reaction Type: A string detailing the type of reaction this user gave. 
-- Sentiment: A string detailing whether this type of reaction is considered as positive, negative or neutral.
-- Score: This is a number calculated by Social Buzz that quantifies how “popular” each reaction is. 
+- Reaction Type: Type of user reaction.
+- Sentiment: Classification of reaction as positive, negative, or neutral.
+- Score: Popularity score calculated by Social Buzz.
 
 
-### Data Cleaning:
+## Data Cleaning:
 
-In this phase, i clean the data to make sure it's accurate, consistent, and reliable. The process includes:
+To ensure the data was accurate, consistent, and reliable, I performed the following steps:
 
-1. **Convert CSV to XLSX:** Begin by converting CSV files to Excel format.
+1. **Convert CSV to XLSX:** Converted raw CSV files into Excel format for easier handling.
    
-2. **Text-to-Column Conversion:** Use Excel's text-to-column feature to separate data as needed.
+2. **Text-to-Columns Conversion:** Used Excel’s "Text-to-Columns" feature to separate data fields as needed.
    
-3. **Identify Missing Values:** Use "Find & Select" → "Go To Special" → "Blanks" to identify missing data.
+3. **Identify Missing Values:** Detected missing data using "Find & Select" → "Go To Special" → "Blanks."
    
-4. **Delete Blank Rows:** Remove rows with blanks in the Reactions dataset (980 rows identified and deleted). No blank cells were found in the other datasets
+4. **Delete Blank Rows:** Removed 980 rows with blanks in the *Reaction* dataset; no blank cells were found in the other datasets.
    
-5. **Remove Unnecessary Columns:** Delete columns including UserID from the **Reaction** and **Content** datasets and URL from the **Content** dataset. No columns were deleted from the **Reaction Types** dataset.
+5. **Remove Unnecessary Columns:** Deleted irrelevant columns, including UserID from *Reaction* and *Content* datasets, and URL from the *Content* dataset.
     
-6. **Data Type Changes:** Adjust columns to appropriate data types.
+6. **Data Type Adjustments:** Ensured all columns had appropriate data types for analysis.
     
-7. **Text Formatting:** After merging the tables in the Data Modelling process, apply the formula ```=PROPER(text)``` to standardize text formatting for consistency and readability.
+7. **Text Formatting:** After merging the tables in the Data Modelling process, pplied the Excel formula ```=PROPER(text)``` to standardize text formatting for consistency and readability.
 
 
-### Data Modelling
+## Data Modelling
 
-In this phase, I prepare the data for analysis by structuring and merging the relevant datasets to ensure they are properly aligned and ready for insightful reporting. The process includes:
+To structure and align the data for analysis, I prepared and merged the datasets through the following steps:
 
 #### 1. Merging Datasets:
 
-- I Utilized Power Query to merge the three datasets: **Content**, **Reaction**, and **Reaction Types**.
+- Used Power Query to combine the three datasets: *Content*, *Reaction*, and *Reaction Types*.
 
 #### 2. Key Relationships:
 
-- The **Content** table is linked to the **Reaction** table through the Content ID field.
-- The **Reaction Types** table is linked to the **Reaction** table through the Reaction Type field.
+- The *Content* table links to the *Reaction* table via the Content ID field.
+- The *Reaction Types* table links to the *Reaction* table via the Reaction Type field.
 
-This results in the **Reaction** table (main table) acting as the central point, with **Content** and **Reaction Types** connected via their respective fields (Content ID and Reaction Type).
+This setup creates a central *Reaction* table, with the *Content* and *Reaction Types* tables connected through their respective fields. This relational structure ensures seamless data alignment for analysis and reporting.
