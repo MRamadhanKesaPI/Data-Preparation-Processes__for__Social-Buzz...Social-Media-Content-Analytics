@@ -1,4 +1,4 @@
-# Data Preparation Process for Social Buzz: Social Media Content Analytics
+# Data Preparation Processes for Social Buzz: Social Media Content Analytics
 
 To ensure the raw data was clean, organized, and ready for analysis, I used Microsoft Excel and followed a systematic data preparation process with three main steps:
 
