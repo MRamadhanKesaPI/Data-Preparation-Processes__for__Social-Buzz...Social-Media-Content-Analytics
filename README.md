@@ -64,3 +64,14 @@ To structure and align the data for analysis, I prepared and merged the datasets
 - The *Reaction Types* table links to the *Reaction* table via the Reaction Type field.
 
 This setup creates a central *Reaction* table, with the *Content* and *Reaction Types* tables connected through their respective fields. This relational structure ensures seamless data alignment for analysis and reporting.
+
+---
+These processes will produce the final datasets that will be imported into Tableau to uncover insights.
+
+<table style="width:100%; border-collapse: collapse; text-align: center;">
+  <tr>
+    <td style="width:50%; padding:10px; text-align: left;">
+       <a href="https://mramadhankesapi.github.io/Social-Buzz...Social-Media-Content-Analytics/" style="text-decoration: none; font-weight: bold; color: #007bff;">📊 Social Buzz: Social Media Content Analytics</a> ⏩
+    </td>
+  </tr>
+</table>
