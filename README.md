@@ -68,9 +68,9 @@ This setup creates a central *Reaction* table, with the *Content* and *Reaction 
 ---
 These processes will produce the final datasets that will be imported into Tableau to uncover insights.
 
-<table style="width:100%; border-collapse: collapse; text-align: center;">
+<table style="width:100%; border-collapse: collapse;">
   <tr>
-    <td style="width:50%; padding:10px; text-align: left;">
+    <td style="text-align: left; padding:10px;">
        <a href="https://mramadhankesapi.github.io/Social-Buzz...Social-Media-Content-Analytics/" style="text-decoration: none; font-weight: bold; color: #007bff;">📊 Social Buzz: Social Media Content Analytics</a> ⏩
     </td>
   </tr>
